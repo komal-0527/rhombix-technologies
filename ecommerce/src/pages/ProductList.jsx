@@ -52,45 +52,12 @@ const ProductList = () => {
         </div>
       </section>
 
-      {/* Contact Section */}
-      <section id="contact" className="bg-[#FFF8F1] py-16 px-4 text-[#4E342E]">
-        <div className="max-w-xl mx-auto">
-          <h2 className="text-3xl font-semibold mb-6 text-center">
-            Contact Us
-          </h2>
-          <form className="space-y-4">
-            <input
-              type="text"
-              placeholder="Your Name"
-              className="w-full p-3 rounded border border-gray-300"
-              required
-            />
-            <input
-              type="email"
-              placeholder="Your Email"
-              className="w-full p-3 rounded border border-gray-300"
-              required
-            />
-            <textarea
-              placeholder="Your Message"
-              rows="5"
-              className="w-full p-3 rounded border border-gray-300"
-              required
-            ></textarea>
-            <button
-              type="submit"
-              className="bg-[#5D4037] text-white px-6 py-3 rounded font-medium hover:bg-[#4E342E] transition"
-            >
-              Send Message
-            </button>
-          </form>
-        </div>
-      </section>
+      
 
       {/* Footer */}
       <footer className="bg-[#3E2723] text-white py-6">
         <div className="container mx-auto px-4 text-center">
-          <p>&copy; {new Date().getFullYear()} ShopSphere. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} ShopOnline. All rights reserved.</p>
         </div>
       </footer>
     </>
